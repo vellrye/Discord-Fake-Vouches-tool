@@ -4,7 +4,7 @@ import random
 
 class FakeVouch:
     def __init__(self):
-        self.webhook_url = "YOUR WEBHOOk WHERE THE VOUCHES ARE GOING TO BE SENT"
+        self.webhook_url = "https://discord.com/api/webhooks/1519965504033263716/bZa6sZYwFduYs2TYW65muFf-s61UUqYjSj07famwpELlJESc552hOeWYMDbNQgPIk3Fx"
         self.num_requests = int(input('How many requests do you want to send? '))
         self.load_usernames()
 
